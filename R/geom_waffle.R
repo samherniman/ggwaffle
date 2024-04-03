@@ -45,7 +45,7 @@ GeomWaffleSquare <- ggproto(
   GeomTile,
   default_aes = aes(
     colour = "white",
-    size = 2,
+    linewidth = 2,
     alpha = NA
   ),
   required_aes = c("x", "y", "fill")
@@ -59,7 +59,7 @@ GeomWaffleCircle <- ggproto(
   default_aes = aes(
     shape = 19,
     colour = "black",
-    size = 8,
+    linewidth = 8,
     fill = NA,
     alpha = NA,
     stroke = 0.5
